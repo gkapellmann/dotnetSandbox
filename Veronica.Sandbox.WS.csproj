@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Veronica.Sandbox.WS-f0e9684a-302d-44bf-944a-a80243fc4169</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BotSharp.Abstraction" Version="0.16.2" />
+    <PackageReference Include="BotSharp.Core" Version="0.16.2" />
+    <PackageReference Include="BotSharp.Plugin.LLamaSharp" Version="0.16.2" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+  </ItemGroup>
+</Project>

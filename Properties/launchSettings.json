@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Veronica.Sandbox.WS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
